@@ -1,0 +1,17 @@
+/**
+ * @param args
+ */
+public static void main(String[] args) {
+	// TODO Auto-generated method stub
+int tabudas;
+int i=1;
+int j=9;
+Scanner scan = new Scanner (System.in);
+System.out.println(" este programa imprime as tabuadas de 1 a 10");
+for (i=1;i<=9;i++){
+int tabuadas =1;
+System.out.println(“tabuadas de:” + tabuadas);
+for (j=9; j<=1; j++){
+System.out.println(i + “x” + j + “=” +(i*j));
+
+System.exit(0);
